@@ -1,9 +1,10 @@
 body{
-	background-color: #88aa88;
+	background-color: #ebe8df;
 	padding:0px;
 	margin:0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
+	color: #000000;
 	width:100%
 }
 
@@ -11,7 +12,7 @@ section {
 	width: clamp(300px, 80%, 1080px);
 	margin: auto;
 	padding: 20px 50px 10px 50px;
-	background-color:#ffffff;
+	background-color:#f5f4ef;
 	color: #000000;
 	max-width:100%;
 	box-sizing: border-box;
@@ -29,24 +30,8 @@ p {
 	line-height:1.5em;
 }
 
-p#version{
-	color:#999999;
-	font-size: 0.9em;
-	line-height: 1.0em;
-	font-style: italic;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
 section.indented div{
 	padding-left: 50px;
-}
-
-section#Charon_Chath_Specific{
-	color:#999999;
-	font-size:0.9em;
-	line-height: 1.25em;
-	font-style: italic;
 }
 
 section.footer{
@@ -55,8 +40,8 @@ section.footer{
 	text-align:right;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
-	background-color: #446644;
-	color:#ffffff;
+	background-color: #88aa88;
+	color:#000000;
 }
 section.footer h2{
 	font-size:1.0em;
@@ -66,12 +51,11 @@ section.footer h2{
 a {
 	font-weight: bold;
 	text-decoration:none;
-	color: #229922;
+	color: #d0d0d0;
 	border-radius: 10px;
 	border-width: 0px;
 	padding:4px 10px;
 	font-size:1.0em;
-	background-color: #f0f0f0;
 	transition: 1.0s;
 	line-height: 2.0em;
 	
@@ -103,7 +87,7 @@ section.header{
 	text-align:center;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
-	background-color: #446644;
+	background-color: #88aa88;
 	color:#ffffff;
 }
 
@@ -118,16 +102,4 @@ a#header_home{
 	transition: 1.0s;
 	background:inherit;
 	color: inherit;
-}
-
-a#header_home:hover{
-	border-radius: 10px;
-	border-width: 0px;
-	padding:5px 12px;
-	background-color: #aaaaaa;
-	font-size:clamp(1.25em,4.1vw,2.1em);
-	line-height: clamp(1.3em,5vw,2.2em);
-	color:#000000;
-	box-shadow: 0px 0px 10px #00000033;
-	transition:1.0s;
 }
