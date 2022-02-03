@@ -1,0 +1,133 @@
+body{
+	background-color: #88aa88;
+	padding:0px;
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width:100%
+}
+
+section {
+	width: clamp(300px, 80%, 1080px);
+	margin: auto;
+	padding: 20px 50px 10px 50px;
+	background-color:#ffffff;
+	color: #000000;
+	max-width:100%;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align:center;
+	font-size:3em;
+	line-height: 1.5em;
+	margin-bottom:0px;
+}
+
+p {
+	color: inherit;
+	line-height:1.5em;
+}
+
+p#version{
+	color:#999999;
+	font-size: 0.9em;
+	line-height: 1.0em;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section.indented div{
+	padding-left: 50px;
+}
+
+section#Charon_Chath_Specific{
+	color:#999999;
+	font-size:0.9em;
+	line-height: 1.25em;
+	font-style: italic;
+}
+
+section.footer{
+	width:100%;
+	margin:auto;
+	text-align:right;
+	padding: 20px 100px 30px 100px;
+	box-sizing: border-box;
+	background-color: #446644;
+	color:#ffffff;
+}
+section.footer h2{
+	font-size:1.0em;
+	line-height: 1.5em;
+	font-weight:normal;
+}
+a {
+	font-weight: bold;
+	text-decoration:none;
+	color: #229922;
+	border-radius: 10px;
+	border-width: 0px;
+	padding:4px 10px;
+	font-size:1.0em;
+	background-color: #f0f0f0;
+	transition: 1.0s;
+	line-height: 2.0em;
+	
+}
+a:hover{
+	border-radius: 10px;
+	border-width: 0px;
+	padding:4px 10px;
+	background-color: #ffffaa;
+	font-size:1.01em;
+	transition:1.0s;
+	box-shadow: 0px 0px 5px #00000033;
+}
+
+div#header_text, div#div_title{
+	display:inline;
+}
+
+div#div_title{
+	text-align:center;
+	font-size:clamp(1.2em,4vw,2em);
+	line-height:clamp(1.3em,5vw,2.2em);
+	margin-bottom:0px;
+}
+
+section.header{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	padding: 20px 100px 30px 100px;
+	box-sizing: border-box;
+	background-color: #446644;
+	color:#ffffff;
+}
+
+a#header_home{
+	font-weight: bold;
+	text-decoration:none;
+	border-radius: 10px;
+	border-width: 0px;
+	padding:5px 12px;
+	font-size:clamp(1.2em,4vw,2em);
+	line-height: clamp(1.3em,5vw,2.2em);
+	transition: 1.0s;
+	background:inherit;
+	color: inherit;
+}
+
+a#header_home:hover{
+	border-radius: 10px;
+	border-width: 0px;
+	padding:5px 12px;
+	background-color: #aaaaaa;
+	font-size:clamp(1.25em,4.1vw,2.1em);
+	line-height: clamp(1.3em,5vw,2.2em);
+	color:#000000;
+	box-shadow: 0px 0px 10px #00000033;
+	transition:1.0s;
+}
