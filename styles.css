@@ -1,5 +1,5 @@
 body{
-	background-color: #ebe8df;
+	background-color: #cbc7b3;
 	padding:0px;
 	margin:0px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ section {
 	width: clamp(300px, 80%, 1080px);
 	margin: auto;
 	padding: 20px 50px 10px 50px;
-	background-color:#f5f4ef;
+	background-color:#f6f6f6;
 	color: #000000;
 	max-width:100%;
 	box-sizing: border-box;
@@ -40,7 +40,7 @@ section.footer{
 	text-align:right;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
-	background-color: #ebe8df;
+	background-color: #cbc7b3;
 	color:#000000;
 }
 section.footer h2{
