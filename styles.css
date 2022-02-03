@@ -40,7 +40,7 @@ section.footer{
 	text-align:right;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
-	background-color: #88aa88;
+	background-color: #ebe8df;
 	color:#000000;
 }
 section.footer h2{
@@ -61,13 +61,7 @@ a {
 	
 }
 a:hover{
-	border-radius: 10px;
-	border-width: 0px;
-	padding:4px 10px;
-	background-color: #ffffaa;
-	font-size:1.01em;
-	transition:1.0s;
-	box-shadow: 0px 0px 5px #00000033;
+	text-decoration:underline;
 }
 
 div#header_text, div#div_title{
@@ -87,7 +81,7 @@ section.header{
 	text-align:center;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
-	background-color: #88aa88;
+	background-color: #ebe8df;
 	color:#ffffff;
 }
 
