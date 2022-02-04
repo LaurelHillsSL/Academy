@@ -53,8 +53,11 @@ a:hover{
   	width: clamp(300px, 80%, 1080px);
 	padding:0px;
 	margin: auto;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:10px;
 	border-right: 10px;
-	border-color:#000000DD;
+	border-color:#00000099;
 	border-style:solid;
 }
 /*=============END AESTHETIC WRAPPER CONFIG==============*/
@@ -107,7 +110,7 @@ li{
 
 /*=========MENU CONFIG=========*/
 /*menu section*/
-div.section{
+section.menu{
 	background-color:transparent;
 	width: clamp(300px, 80%, 1080px);
 	padding:0px;
