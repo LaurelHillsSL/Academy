@@ -4,8 +4,9 @@ body{
 	margin:0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
-	color: #000000;
-	width:100%
+	font-color: #000000;
+	width:100%;
+	border: 
 }
 
 section {
