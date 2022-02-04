@@ -52,11 +52,6 @@ a:hover{
 /*=============AESTHETIC WRAPPER CONFIG==============*/
 
 div.wrapper{
-  width: 100%;
-  height: content;
-  padding: 20px 0;
-  overflow: hidden;
-  margin: 0;
   background: radial-gradient(circle, rgba(231,232,234,0.896796218487395) 0%, rgba(174,175,177,1) 100%);
 }
 /*=============END AESTHETIC WRAPPER CONFIG==============*/
@@ -136,12 +131,12 @@ div.menu{
 	align-self: auto;
 }
 
-.menu div:hover{
+.menu > div:hover{
 	border: 1px solid black;
 }
 
 /*Menu hyperlinks*/
-div.menu a{
+.menu > a{
 	text-decoration:none;
 	font-size:1.5em;
 	line-height: 2.0em;
@@ -150,7 +145,7 @@ div.menu a{
 }
 
 /*Menu hyperlinks when hovered over*/
-div.menu a:hover{
+.menu > a:hover{
 	text-decoration:underline;
 	font-color:#000000;
 }
