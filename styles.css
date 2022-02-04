@@ -56,6 +56,12 @@ img{
 	margin-bottom:30px;
 }
 
+span.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*=============AESTHETIC WRAPPER CONFIG==============*/
 
 
