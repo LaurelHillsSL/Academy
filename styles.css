@@ -55,6 +55,7 @@ a:hover{
 	margin: auto;
 	border-right: 10px;
 	border-color:#000000DD;
+	border-style:solid;
 }
 /*=============END AESTHETIC WRAPPER CONFIG==============*/
 
@@ -97,6 +98,9 @@ a#header_home{
 a#header_home:hover{
 	text-decoration: underline;
 }
+li{
+	padding-bottom:10px;
+}
 /*===================END HEADER CONFIG=================*/
 
 
@@ -107,7 +111,7 @@ div.section{
 	background-color:transparent;
 	width: clamp(300px, 80%, 1080px);
 	padding:0px;
-	margin: auto;
+	margin: 0px auto 0px;
 }
 
 /*Menu Container*/
@@ -116,7 +120,7 @@ div#menu{
 	padding:10px;
 	display:flex;
 	flex-flow: row wrap;
-	justify-content: space-evenly;
+	justify-content: center;;
 	align-items: stretch;
 	align-content: flex-start;
 	gap: 10px 20px;
