@@ -34,12 +34,9 @@ a {
 	font-weight: bold;
 	text-decoration:none;
 	color: #303030;
-	border-radius: 10px;
-	border-width: 0px;
-	padding:4px 10px;
 	font-size:1.0em;
 	transition: 1.0s;
-	line-height: 2.0em;
+	line-height: 1.75em;
 	
 }
 a:hover{
