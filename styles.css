@@ -4,9 +4,8 @@ body{
 	margin:0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
-	font-color: #000000;
+	color: #000000;
 	width:100%;
-	border: 
 }
 
 section {
@@ -35,7 +34,7 @@ p {
 a {
 	font-weight: bold;
 	text-decoration:none;
-	font-color: #303030;
+	color: #303030;
 	border-radius: 10px;
 	border-width: 0px;
 	padding:4px 10px;
@@ -46,7 +45,7 @@ a {
 }
 a:hover{
 	text-decoration:underline;
-	font-color: #000000;
+	color: #000000;
 }
 
 /*=============AESTHETIC WRAPPER CONFIG==============*/
@@ -121,7 +120,7 @@ div.menu{
 	border-radius:10px;
 	padding:10px; /*inside border*/
 	background-color:#efeee9;
-	font-color:#000000; /*font color */
+	color:#000000; /*font color */
 	flex: auto;
 	/* replaced by the above
 	flex-grow: 1;
@@ -140,14 +139,14 @@ div.menu{
 	text-decoration:none;
 	font-size:1.5em;
 	line-height: 2.0em;
-	font-color:#303030;
+	color:#303030;
 	
 }
 
 /*Menu hyperlinks when hovered over*/
 .menu > a:hover{
 	text-decoration:underline;
-	font-color:#000000;
+	color:#000000;
 }
 
 /*=========END MENU CONFIG==========*/
