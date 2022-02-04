@@ -132,8 +132,8 @@ div#menu{
 }
 
 /*Menu Items*/
-#menu > div{
-	border: 1px solid #707070;
+#menu > a > div{
+	border: 1px solid #505050;
 	/* replaced by the above
 	border-width:1px;
 	border-color:#000000;
@@ -150,8 +150,10 @@ div#menu{
 	align-self: auto;
 }
 
-#menu > div:hover{
+#menu > a > div:hover{
+	transition-duration: 2s;
 	border: 1px solid black;
+	filter: drop-shadow(0 0 0.75rem black);
 }
 
 /*Menu hyperlinks*/
