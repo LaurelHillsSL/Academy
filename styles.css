@@ -160,8 +160,8 @@ div#menu{
 	border-width:1px;
 	border-color:#000000;
 	*/
-	border-radius:20px;
-	padding:10px 5px 10px 5px; /*inside of border*/
+	border-radius:30px;
+	padding:10px 10px 10px 10px; /*inside of border*/
 	background-color:#efeee9;
 	color:#505050; /*font color */
 	/*flex: auto;*/
