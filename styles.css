@@ -97,3 +97,61 @@ a#header_home{
 	background:inherit;
 	color: inherit;
 }
+a#header_home{
+	text-decoration: underline;
+}
+
+
+/*=========Menu config==========*/
+
+/*Menu Container*/
+div.menu{
+	background-color:#ebe8e1;
+	padding:10px;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: flex-start;
+	gap: 10px 20px;
+}
+
+/*Menu Items*/
+.menu div{
+	border: 1px solid gray;
+	/* replaced by the above
+	border-width:1px;
+	border-color:#000000;
+	*/
+	border-radius:10px;
+	padding:10px; /*inside border*/
+	background-color:#efeee9;
+	color:#000000; /*font color */
+	flex: auto;
+	/* replaced by the above
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis:  auto;
+	*/
+	align-self: auto;
+}
+
+.menu div:hover{
+	border: 1px solid black;
+}
+
+/*Menu hyperlinks*/
+.menu a{
+	text-decoration:none;
+	font-size:1.5em;
+	line-height: 2.0em;
+	color:#000000;
+	
+}
+
+/*Menu hyperlinks when hovered over*/
+.menu a:hover{
+	text-decoration:underline;
+}
+
+/*=========End Menu config==========*/
