@@ -21,6 +21,7 @@ h1 {
 	text-align:center;
 	font-size:3em;
 	line-height: 3.0em;
+	margin-bottom:20px;
 }
 
 p {
@@ -52,6 +53,7 @@ img{
 	margin-right: auto;
 	width: 50%;
 	filter: drop-shadow(5px 5px 10px #00000055);
+	margin-bottom:20px;
 }
 
 /*=============AESTHETIC WRAPPER CONFIG==============*/
