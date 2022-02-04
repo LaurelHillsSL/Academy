@@ -30,24 +30,7 @@ p {
 	line-height:1.5em;
 }
 
-section.indented div{
-	padding-left: 50px;
-}
 
-section.footer{
-	width:100%;
-	margin:auto;
-	text-align:right;
-	padding: 20px 100px 30px 100px;
-	box-sizing: border-box;
-	background-color: #ebe8df;
-	color:#000000;
-}
-section.footer h2{
-	font-size:1.0em;
-	line-height: 1.5em;
-	font-weight:normal;
-}
 a {
 	font-weight: bold;
 	text-decoration:none;
@@ -64,6 +47,8 @@ a:hover{
 	text-decoration:underline;
 }
 
+
+/*=============HEADER CONFIG=========*/
 div#header_text, div#div_title{
 	display:inline;
 }
@@ -97,13 +82,14 @@ a#header_home{
 	background:inherit;
 	color: inherit;
 }
-a#header_home{
+a#header_home:hover{
 	text-decoration: underline;
 }
+/*===================END HEADER CONFIG=================*/
 
 
-/*=========Menu config==========*/
 
+/*=========MENU CONFIG=========*/
 /*Menu Container*/
 div.menu{
 	background-color:#ebe8e1;
@@ -126,7 +112,7 @@ div.menu{
 	border-radius:10px;
 	padding:10px; /*inside border*/
 	background-color:#efeee9;
-	color:#000000; /*font color */
+	font-color:#000000; /*font color */
 	flex: auto;
 	/* replaced by the above
 	flex-grow: 1;
@@ -145,13 +131,34 @@ div.menu{
 	text-decoration:none;
 	font-size:1.5em;
 	line-height: 2.0em;
-	color:#000000;
+	font-color:#dddddd;
 	
 }
 
 /*Menu hyperlinks when hovered over*/
 .menu a:hover{
 	text-decoration:underline;
+	font-color:#000000;
 }
 
-/*=========End Menu config==========*/
+/*=========END MENU CONFIG==========*/
+
+
+
+/*========Footer Config=============*/
+section.footer{
+	width:100%;
+	margin:auto;
+	text-align:right;
+	padding: 20px 100px 30px 100px;
+	box-sizing: border-box;
+	background-color: #ebe8df;
+	color:#000000;
+}
+
+section.footer h2{
+	font-size:1.0em;
+	line-height: 1.5em;
+	font-weight:normal;
+}
+/*==========END FOOTER DATA==================*/
