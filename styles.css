@@ -52,13 +52,14 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	filter: drop-shadow(5px 5px 10px #00000055);
 }
 
 /*=============AESTHETIC WRAPPER CONFIG==============*/
 
 
 #header_wrapper{
-  	width: clamp(300px, 80%, 1080px);
+  	width: 1vw;
 	padding:0px;
 	margin: auto;
 	border-style:none;
