@@ -54,6 +54,8 @@ img{
 
 .center a, .center p{
 	text-align: center;
+	display:block;
+	width:100%;
 }
 
 /*=============AESTHETIC WRAPPER CONFIG==============*/
@@ -123,8 +125,9 @@ a#header_home{
 a#header_home:hover{
 	text-decoration: underline;
 }
+
 li{
-	padding-bottom:10px;
+	padding-bottom:15px;
 }
 /*===================END HEADER CONFIG=================*/
 
