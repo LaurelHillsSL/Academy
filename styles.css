@@ -52,7 +52,7 @@ img{
 	margin-bottom:30px;
 }
 
-.center{
+.center a, .center p{
 	text-align: center;
 }
 
