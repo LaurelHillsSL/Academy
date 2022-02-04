@@ -9,7 +9,7 @@ body{
 }
 
 section {
-	width: fit-content;
+	width: 100%;
 	padding: 20px 50px 10px 50px;
 	background-color:#f6f6f6;
 	color: #000000;
