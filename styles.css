@@ -52,6 +52,7 @@ a:hover{
 .wrapper{
   	width: clamp(300px, 80%, 1080px);
 	padding:0px;
+	margin: auto;
 	border-right: 10px;
 	border-color:#000000DD;
 }
