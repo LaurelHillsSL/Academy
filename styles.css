@@ -102,6 +102,14 @@ a#header_home:hover{
 
 
 /*=========MENU CONFIG=========*/
+/*menu section*/
+div.section{
+	background-color:transparent;
+	width: clamp(300px, 80%, 1080px);
+	padding:0px;
+	margin: auto;
+}
+
 /*Menu Container*/
 div#menu{
 	background-color:#ebe8e1;
@@ -125,12 +133,11 @@ div#menu{
 	padding:10px; /*inside border*/
 	background-color:#efeee9;
 	color:#000000; /*font color */
-	flex: auto;
-	/* replaced by the above
-	flex-grow: 1;
-	flex-shrink: 1;
+	/*flex: auto;*/
+	/*replaced by the above */
+	flex-grow: 0;
+	flex-shrink: 0;
 	flex-basis:  auto;
-	*/
 	align-self: auto;
 }
 
