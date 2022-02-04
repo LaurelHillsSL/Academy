@@ -54,10 +54,10 @@ a:hover{
 	padding:0px;
 	margin: auto;
 	border-top:0px;
-	border-left:0px;
+	border-left:10px;
 	border-bottom:10px;
 	border-right: 10px;
-	border-color:#00000099;
+	border-color:#00000000 #00000050 #00000050 #00000000;
 	border-style:solid;
 }
 /*=============END AESTHETIC WRAPPER CONFIG==============*/
@@ -78,9 +78,9 @@ div#div_title{
 
 section.header{
 	width:100%;
-	margin:auto;
+	margin: 0px auto 0px;
 	text-align:center;
-	padding: 20px 100px 30px 100px;
+	padding: 20px 100px 20px 100px;
 	box-sizing: border-box;
 	background-color: #ebe8df;
 	color:#000000;
@@ -112,13 +112,15 @@ li{
 /*menu section*/
 section.menu{
 	background-color:transparent;
-	width: clamp(300px, 80%, 1080px);
 	padding:0px;
-	margin: 0px auto 0px;
+	margin: 0px;
+	width: 100%;
 }
 
 /*Menu Container*/
 div#menu{
+	width: 100%;
+	margin: 0px auto 0px;
 	background-color:#ebe8e1;
 	padding:10px;
 	display:flex;
