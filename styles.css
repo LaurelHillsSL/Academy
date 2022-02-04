@@ -103,7 +103,7 @@ a#header_home:hover{
 
 /*=========MENU CONFIG=========*/
 /*Menu Container*/
-div.menu{
+div#menu{
 	background-color:#ebe8e1;
 	padding:10px;
 	display:flex;
@@ -115,7 +115,7 @@ div.menu{
 }
 
 /*Menu Items*/
-.menu div{
+#menu div{
 	border: 1px solid gray;
 	/* replaced by the above
 	border-width:1px;
@@ -134,12 +134,12 @@ div.menu{
 	align-self: auto;
 }
 
-.menu > div:hover{
+#menu > div:hover{
 	border: 1px solid black;
 }
 
 /*Menu hyperlinks*/
-.menu > a{
+#menu > a{
 	text-decoration:none;
 	font-size:1.5em;
 	line-height: 2.0em;
@@ -148,7 +148,7 @@ div.menu{
 }
 
 /*Menu hyperlinks when hovered over*/
-.menu > a:hover{
+#menu > a:hover{
 	text-decoration:underline;
 	color:#000000;
 }
