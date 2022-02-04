@@ -160,7 +160,7 @@ div#menu{
 	border-width:1px;
 	border-color:#000000;
 	*/
-	border-radius:10px;
+	border-radius:20px;
 	padding:10px 5px 10px 5px; /*inside of border*/
 	background-color:#efeee9;
 	color:#505050; /*font color */
@@ -175,7 +175,7 @@ div#menu{
 #menu > a > div:hover{
 	transition-duration: 0.5s;
 	border: 1px solid black;
-	filter: drop-shadow(0 0 0.25rem #00000055);
+	filter: drop-shadow(5px 5px 5px #00000055);
 	color:#000000; /*font color */
 }
 
