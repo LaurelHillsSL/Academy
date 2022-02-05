@@ -182,12 +182,6 @@ div#menu{
 	color:#000000; /*font color */
 }
 
-#menu > a:active > div{
-	border: 1px solid #00000050;
-	filter: drop-shadow(5px 5px 5px #00000055);
-	color:#000000; /*font color */
-}
-
 /*Menu hyperlinks*/
 #menu > a{
 	text-decoration:none;
