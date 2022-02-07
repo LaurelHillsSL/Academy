@@ -87,7 +87,7 @@ iframe{
 
 #footer_wrapper{
   	width: 100%;
-	padding:0px;
+	padding: 0px;
 	margin: auto;
 	border-style:none;
 	filter: drop-shadow(0px -2px 5px #00000055);
@@ -110,7 +110,8 @@ iframe{
 .iframe_wrapper{
 	position: relative;
 	width: 100%;
-	min-height: 500px;
+	min-height: 800px;
+	height: 100%;
 	overflow: hidden;
 }
 
@@ -123,33 +124,33 @@ div#header_text, div#div_title{
 }
 
 div#div_title{
-	text-align:center;
-	font-size:clamp(1.2em,4vw,2em);
-	line-height:clamp(1.3em,5vw,2.2em);
+	text-align: center;
+	font-size: clamp(1.2em,4vw,2em);
+	line-height: clamp(1.3em,5vw,2.2em);
 	margin: auto;
-	margin-bottom:0px;
+	margin-bottom: 0px;
 }
 
 section.header{
-	width:100%;
+	width: 100%;
 	margin: 0px auto 0px;
-	text-align:center;
+	text-align: center;
 	padding: 20px 100px 10px 100px;
 	box-sizing: border-box;
 	background-color: #ebe8df;
-	color:#000000;
+	color: #000000;
 }
 
 a#header_home{
 	font-weight: bold;
-	text-decoration:none;
+	text-decoration: none;
 	border-radius: 10px;
 	border-width: 0px;
-	padding:5px 12px;
-	font-size:clamp(1.2em,4vw,2em);
+	padding: 5px 12px;
+	font-size: clamp(1.2em,4vw,2em);
 	line-height: clamp(1.3em,5vw,2.2em);
 	transition: 1.0s;
-	background:inherit;
+	background: inherit;
 	color: inherit;
 }
 a#header_home:hover{
@@ -157,7 +158,7 @@ a#header_home:hover{
 }
 
 li{
-	padding-bottom:15px;
+	padding-bottom: 15px;
 }
 /*===================END HEADER CONFIG=================*/
 
@@ -166,8 +167,8 @@ li{
 /*=========MENU CONFIG=========*/
 /*menu section*/
 section.menu{
-	background-color:transparent;
-	padding:0px;
+	background-color: transparent;
+	padding: 0px;
 	margin: 0px;
 	width: 100%;
 }
@@ -176,9 +177,9 @@ section.menu{
 div#menu{
 	width: 100%;
 	margin: 0px auto 0px;
-	background-color:#ebe8e1;
-	padding:0px 10px 10px 10px;
-	display:flex;
+	background-color: #ebe8e1;
+	padding: 0px 10px 10px 10px;
+	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;;
 	align-items: stretch;
@@ -194,39 +195,40 @@ div#menu{
 	border-width:1px;
 	border-color:#000000;
 	*/
-	border-radius:30px 5px;
-	padding:5px 10px 5px 10px; /*inside of border*/
-	background-color:#efeee9;
-	color:#505050; /*font color */
-	/*flex: auto;*/
+	border-radius: 30px 5px;
+	padding: 5px 10px 5px 10px; /*inside of border*/
+	background-color: #efeee9;
+	color: #505050; /*font color */
+	flex: 0 0 auto;
 	/*replaced by the above */
-	flex-grow: 0;
+	/* flex-grow: 0;
 	flex-shrink: 0;
 	flex-basis:  auto;
+	*/
 	align-self: auto;
 }
 
 #menu > a > div:hover{
 	transition-duration: 0.5s;
-	padding:5px 20px 5px 20px; /*inside of border*/
+	padding: 5px 20px 5px 20px; /*inside of border*/
 	border: 1px solid #00000050;
 	filter: drop-shadow(5px 5px 5px #00000055);
-	color:#000000; /*font color */
+	color: #000000; /*font color */
 }
 
 /*Menu hyperlinks*/
 #menu > a{
-	text-decoration:none;
-	font-size:1.25em;
+	text-decoration: none;
+	font-size: 1.25em;
 	line-height: 1.75em;
-	color:#505050;
+	color: #505050;
 	
 }
 
 /*Menu hyperlinks when hovered over*/
 #menu > a:hover{
-	text-decoration:underline;
-	color:#000000;
+	text-decoration: underline;
+	color: #000000;
 }
 
 /*=========END MENU CONFIG==========*/
@@ -235,18 +237,18 @@ div#menu{
 
 /*========Footer Config=============*/
 section.footer{
-	width:100%;
-	margin:auto;
-	text-align:right;
+	width: 100%;
+	margin: auto;
+	text-align: right;
 	padding: 20px 100px 30px 100px;
 	box-sizing: border-box;
 	background-color: #ebe8df;
-	color:#000000;
+	color: #000000;
 }
 
 section.footer h2{
-	font-size:1.0em;
+	font-size: 1.0em;
 	line-height: 1.5em;
-	font-weight:normal;
+	font-weight: normal;
 }
 /*==========END FOOTER DATA==================*/
