@@ -49,13 +49,17 @@ img{
 	margin-right: auto;
 	width: 50%;
 	filter: drop-shadow(5px 5px 10px #00000055);
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
 
 .center a, .center p{
 	text-align: center;
-	display:block;
-	width:100%;
+	display: block;
+	width: 100%;
+}
+
+iframe{
+	frameBorder: 0;
 }
 
 /*=============AESTHETIC WRAPPER CONFIG==============*/
