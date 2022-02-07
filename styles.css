@@ -102,6 +102,14 @@ iframe{
 	z-index :0;
 	overflow: hidden;
 }
+
+.iframe_wrapper{
+	  position: relative;
+	  width: 100%;
+	  overflow: hidden;
+	  padding-top: 56.25%/* 16:9 Aspect Ratio */
+}
+
 /*=============END AESTHETIC WRAPPER CONFIG==============*/
 
 
