@@ -6,7 +6,7 @@
     <div id="header_text"><a id="header_home" href="https://LaurelHillsSL.github.io/Academy/" title="Home">Laurel Hills Academy SL</a></div><div id="div_title"></div>
 </section>
 <section class = "menu">
-<div id="menu" style = "display:flex">
+<div class = "header_menu">
   <a title = "Homepage" href="https://laurelhillssl.github.io/Academy/" ><div>Home</div></a>
   <a title = "OOC Rules" href="https://laurelhillssl.github.io/Academy/pages/ooc_rules/"><div>OOC Rules</div></a>
   <a title = "RP Guidelines" href="https://laurelhillssl.github.io/Academy/pages/rp_guide/"><div>RP guidelines</div></a>
@@ -15,6 +15,32 @@
   <a title = "Instructor Application" href="https://laurelhillssl.github.io/Academy/pages/instructor_app/"><div>Instructor App</div></a>
   <a title = "Pictures" href="https://laurelhillssl.github.io/Academy/pages/pictures/"><div>Pictures</div></a>
   <a title = "Suggestions" href="https://laurelhillssl.github.io/Academy/pages/suggestions/"><div>Suggestions</div></a>
+  <div id = lore_menu class = float_base>
+    <a title = "Lore" href="https://laurelhillssl.github.io/Academy/pages/Lore/">
+      <div>Lore</div>
+    </a>
+    <div id = "lore_menu_hidden" class = "hidden float">
+      <div class = "bar"></div>
+      <a title="Werewolf Lore" href="#"><div>Werewolf Lore</div></a>
+      <a title="Elf Lore" href="#"><div>Elf Lore</div></a>
+    </div>
+  </div>
 </div>
+<script>
+let trigger = document.getElementById("lore_menu");
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+trigger.addEventListener("mouseenter", function() {
+  // highlight the mouseenter target
+  let target = document.getElementById("lore_menu_hidden");
+	target.classList.remove("hidden");
+}, false);
+
+trigger.addEventListener("mouseleave", function() {
+  // highlight the mouseenter target
+  let target = document.getElementById("lore_menu_hidden");
+	target.classList.add("hidden");
+}, false);
+</script>
 </section>
 </div>
