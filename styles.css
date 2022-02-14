@@ -213,8 +213,7 @@ li{
   top: 55px;
   background-color: transparent;
   padding: 5px;
-  border: 1px solid;
-  border-color: #00000050;
+  border: 0px none;
 }
 
 .float > a{
