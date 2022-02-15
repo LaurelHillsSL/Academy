@@ -4,12 +4,7 @@ body{
 	background-color: #cbc7b3;
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Akaya Telivigala', cursive;
-	
-	/*Old Font
 	font-family: Arial, Helvetica, sans-serif;
-	*/
-	
 	font-size: 120%;
 	color: #000000;
 	width: 100%;
@@ -107,6 +102,7 @@ strong{
 	position: relative;
 	z-index: 2;
 	overflow: visible;
+	font-family: 'Akaya Telivigala', cursive;
 }
 
 #footer_wrapper{
