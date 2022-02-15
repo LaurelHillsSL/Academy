@@ -17,10 +17,20 @@ section {
 }
 
 h1 {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	text-align: center;
 	font-size: 3em;
+}
+h2 {
+	margin-bottom: 40px;
+	text-align: left;
+	font-size: 2em;
+}
+h3 {
+	h1 {
 	margin-bottom: 20px;
+	text-align: left;
+	font-size: 1.5em;
 }
 
 p {
@@ -73,6 +83,10 @@ iframe{
 
 li{
 	padding-bottom: 15px;
+}
+	
+strong{
+	font-weight:bold;
 }
 
 /* =============AESTHETIC WRAPPER CONFIG============== */
