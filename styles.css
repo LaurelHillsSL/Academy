@@ -92,7 +92,23 @@ strong{
 
 img.small_img{
 	height:350px;
-	width:150px;
+	width:160px;
+}
+
+.grid_4 {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+  width: auto;
+}
+
+.grid_3 {
+  width:auto;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  align-content: center;
 }
 
 /* =============AESTHETIC WRAPPER CONFIG============== */
@@ -139,20 +155,6 @@ img.small_img{
 	min-height: 800px;
 	height: 100%;
 	overflow: hidden;
-}
-
-.grid_4 {
-  display: grid;
-  column-gap: 50px;
-  grid-template-columns: auto auto auto auto;
-  align-content: center;
-}
-
-.grid_3 {
-  display: grid;
-  column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  align-content: center;
 }
 
 /* =============END AESTHETIC WRAPPER CONFIG============== */
