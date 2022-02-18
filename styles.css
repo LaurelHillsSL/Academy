@@ -92,13 +92,13 @@ strong{
 
 img.small_img{
 	height:350px;
-	width:160px;
+	width:180px;
 }
 
 .grid_4 {
   display: grid;
   column-gap: 50px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: fit-content(180px) fit-content(180px) fit-content(180px) fit-content(180px);
   align-content: center;
   width: auto;
 }
@@ -107,7 +107,7 @@ img.small_img{
   width:auto;
   display: grid;
   column-gap: 50px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: fit-content(180px) fit-content(180px) fit-content(180px);
   align-content: center;
 }
 
