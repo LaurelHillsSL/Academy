@@ -136,6 +136,20 @@ strong{
 	overflow: hidden;
 }
 
+.grid_4 {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  align-content: center;
+}
+
+.grid_3 {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+}
+
 /* =============END AESTHETIC WRAPPER CONFIG============== */
 
 
