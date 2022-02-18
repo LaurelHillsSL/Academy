@@ -96,17 +96,17 @@ img.small_img{
 }
 
 .grid_4 {
+  width: 800px;
   display: grid;
   column-gap: 50px;
   grid-template-columns: 180px 180px 180px 180px;
   align-content: center;
-  width:600px;
   margin-left:auto;
   margin-right:auto;
 }
 
 .grid_3 {
-  width:600px;
+  width: 600px;
   display: grid;
   column-gap: 50px;
   grid-template-columns: 180px 180px 180px;
