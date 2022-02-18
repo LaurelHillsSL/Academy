@@ -183,6 +183,7 @@ section.header{
 }
 
 a#header_home{
+	width: 1fr;
 	font-weight: bold;
 	text-decoration: none;
 	border-radius: 10px;
@@ -209,7 +210,7 @@ a#header_home:hover{
 	background-color: transparent;
 	padding: 0px;
 	margin: 0px;
-	width: 100%;
+	width: 1fr;
 }
 
 .hidden{
