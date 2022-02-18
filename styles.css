@@ -101,6 +101,8 @@ img.small_img{
   grid-template-columns: fit-content(180px) fit-content(180px) fit-content(180px) fit-content(180px);
   align-content: center;
   width: auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .grid_3 {
@@ -109,6 +111,8 @@ img.small_img{
   column-gap: 50px;
   grid-template-columns: fit-content(180px) fit-content(180px) fit-content(180px);
   align-content: center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* =============AESTHETIC WRAPPER CONFIG============== */
