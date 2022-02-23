@@ -115,6 +115,15 @@ img.small_img{
   margin-right:auto;
 }
 
+.no_display {
+   display: none;
+}
+
+.hidden{
+  opacity: 0%;
+  transition-duration: 0.5s;
+  visibility: hidden;
+}
 /* =============AESTHETIC WRAPPER CONFIG============== */
 
 
@@ -217,12 +226,6 @@ a#header_home:hover{
 	padding: 0px;
 	margin: 0px;
 	width: 95%;
-}
-
-.hidden{
-  opacity: 0%;
-  transition-duration: 0.5s;
-  visibility: hidden;
 }
 
 .bar{
