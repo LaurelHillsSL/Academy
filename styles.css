@@ -124,6 +124,13 @@ img.small_img{
   transition-duration: 0.5s;
   visibility: hidden;
 }
+
+.gray_cell {
+	background-color: #808080;
+	
+table {
+	width:100%;
+}
 /* =============AESTHETIC WRAPPER CONFIG============== */
 
 
