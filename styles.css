@@ -134,10 +134,6 @@ table, th, td {
 	border: 1px solid;
 }
 
-#table_spells td:nth-child(3){
-	background-color: #aaffaa;
-}
-
 .gray_cell {
 	background-color: #808080;
 }
