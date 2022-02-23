@@ -137,6 +137,10 @@ table {
 table, th, td {
 	border: 1px solid;
 }
+
+#table_spells td:nth-child(3){
+	background-color: #aaffaa;
+}
 /* =============AESTHETIC WRAPPER CONFIG============== */
 
 
