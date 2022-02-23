@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Spells</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/scripts.js"></script>
+  </head>
+
+  <body>
+    <div data-include="header"></div>
+    <div id="body_wrapper">
+      <section id="spells">
+        <h1>The spells, Esmerelda</h1>
+        <table id = "table_spells">
+          <caption>Spell list and descriptions</caption>
+          <thead>
+            <tr>
+              <th scope="col">Note</th>
+              <th scope="col">Year/Level</th>
+              <th scope="col">Biomancy</th>
+              <th scope="col">Pyromancy</th>
+              <th scope="col">Aquamancy</th>
+              <th scope="col">Terramancy</th>
+              <th scope="col">Aeromancy</th>
+              <th scope="col">Arcane</th>
+              <th scope="col">Bonus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class = "container"><div class = "td_button">Note1</div><div class = "description no_display">A hidden thing1</div></td>
+              <td class = "container"><div class = "td_button">Note2</div><div class = "description no_display">A hidden thing2</div></td>
+              <td class = "container"><div class = "td_button">Note3</div><div class = "description no_display">A hidden thing3</div></td>
+              <td class = "container"><div class = "td_button">Note4</div><div class = "description no_display">A hidden thing4</div></td>
+              <td class = "container"><div class = "td_button">Note5</div><div class = "description no_display">A hidden thing5</div></td>
+              <td class = "container"><div class = "td_button">Note6</div><div class = "description no_display">A hidden thing6</div></td>
+              <td class = "container"><div class = "td_button">Note7</div><div class = "description no_display">A hidden thing7</div></td>
+              <td class = "container"><div class = "td_button">Note8</div><div class = "description no_display">A hidden thing8</div></td>
+              <td class = "container"><div class = "td_button">Note9</div><div class = "description no_display">A hidden thing9</div></td>
+            </tr>
+          </tbody>
+        </table>
+        <script>
+          const hiddens = document.querySelectorAll("#table_spells .description");
+          const tds = document.querySelectorAll("#table_spells .container");
+          for (let i = 0; i < tds.length; i++) {
+            tds[i].addEventListener("click", function(){ hiddens[i].classList.toggle("no_display");; });
+          }
+        </script>
+      </section>
+    </div>
+    <div data-include="footer"></div>
+  </body>
+
+</html>
