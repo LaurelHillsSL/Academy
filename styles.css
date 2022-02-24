@@ -156,6 +156,34 @@ th, td {
   width: 75px;
 }
 
+.bio-green{
+  background-color: lightgreen;
+}
+
+.fire-pink{
+  background-color: pink;
+}
+
+.aqua-blue{
+  background-color: lightblue;
+}
+
+.earth-brown{
+  background-color: burlywood;
+}
+
+.air-gray{
+  background-color: silver;
+}
+
+.arcane-yellow{
+  background-color: lightyellow;
+}
+
+col{
+  align-content: center;
+}
+
 /* =============AESTHETIC WRAPPER CONFIG============== */
 
 
