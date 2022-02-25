@@ -153,11 +153,12 @@ td {
   background-color: #808080;
 }
 
-tr.divide>td {
+tr.divide > td {
   border-top: 5px solid;
 }
 
-td.no_border {
+td.no_border,
+th.no_border{
   border: 0px none !important;
 }
 
@@ -177,6 +178,11 @@ td.no_border {
 .table_lvl {
   width: 70px;
   max-width: 70px;
+}
+
+.table_gap {
+  width: 25px;
+  max-width: 25px;
 }
 
 .bio-green {
