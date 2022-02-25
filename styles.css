@@ -119,8 +119,15 @@ img.small_img {
   margin-right: auto;
 }
 
-.no_display {
-  display: none;
+.hide {
+  font-size: 0px;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.show {
+  opacity: 1;
+  transition-duration: 0.5s;
 }
 
 .hidden {
@@ -158,7 +165,11 @@ td {
 }
 
 .table_notes {
-  width: 75px;
+  width: 65px;
+}
+
+.table_lvl {
+  width: 50px;
 }
 
 .bio-green {
@@ -387,7 +398,7 @@ section.footer h2 {
 
 .footer_grid {
   display: grid;
-  grid: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 50px auto 100px auto;
   width: 100%;
   max-width: 1920px;
