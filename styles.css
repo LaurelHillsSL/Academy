@@ -140,6 +140,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   filter: drop-shadow(5px 5px 20px #00000055);
+  table-layout: fixed;
 }
 
 th,
@@ -152,8 +153,12 @@ td {
   background-color: #808080;
 }
 
-.no_border {
-  border: 0px none;
+tr.divide>td {
+  border-top: 5px solid;
+}
+
+td.no_border {
+  border: 0px none !important;
 }
 
 .description {
@@ -165,11 +170,13 @@ td {
 }
 
 .table_notes {
-  width: 65px;
+  width: 90px;
+  max-width: 90px;
 }
 
 .table_lvl {
-  width: 50px;
+  width: 70px;
+  max-width: 70px;
 }
 
 .bio-green {
@@ -194,6 +201,10 @@ td {
 
 .arcane-yellow {
   background-color: lightyellow;
+}
+
+.award-coral {
+  background-color: lightcoral;
 }
 
 col {
