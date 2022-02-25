@@ -13,11 +13,11 @@
     <div id="body_wrapper">
       <section id="spells">
         <h1>Laurel hills Academy Spell List</h1>
-        <table id="table_spells">
-          <caption>Spell list and descriptions</caption>
+        <table class="table_spells">
+          <caption>Click on a spell for more info.</caption>
           <colgroup>
-            <col />
-            <col />
+            <col class="table_notes" />
+            <col class="table_lvl" />
             <col class="bio-green" />
             <col class="fire-pink" />
             <col class="aqua-blue" />
@@ -27,8 +27,8 @@
           </colgroup>
           <thead>
             <tr>
-              <th class="no_border table_notes" scope="col"></th>
-              <th class="table_lvl" scope="col">Yr./Lvl</th>
+              <th class="no_border" scope="col"></th>
+              <th scope="col">Yr./Lvl</th>
               <th scope="col">Biomancy</th>
               <th scope="col">Pyromancy</th>
               <th scope="col">Aquamancy</th>
@@ -38,7 +38,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="divide">
               <td rowspan=4>Affinity Only</td>
               <td>7d</td>
               <td class="gray_cell"></td>
@@ -111,7 +111,7 @@
                 <div class="description hide">High Energy - Generates a powerful ward of invisible force.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4>Affinity and Attunement Only</td>
               <td>6d</td>
               <td class="gray_cell"></td>
@@ -184,7 +184,7 @@
                 <div class="description hide">High Energy Temporarily stuns a person.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4 class="no_border"></td>
               <td>5d</td>
               <td class="gray_cell"></td>
@@ -260,7 +260,7 @@
                 <div class="description hide">Medium Energy - Temporarily allows the caster to speak and understand a desired language.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4 class="no_border"></td>
               <td>4d</td>
               <td class="gray_cell"></td>
@@ -336,7 +336,7 @@
                 <div class="description hide">Medium Energy - Manipulating a lock with unseen forces.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4>Elemental Opposites</td>
               <td>3d</td>
               <td class="gray_cell"></td>
@@ -430,7 +430,7 @@
                 <div class="description hide">Low Energy - Dissolves an illusion.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4 class="no_border"></td>
               <td>2d</td>
               <td class="container">
@@ -539,7 +539,7 @@
                 <div class="description hide">Low Energy - Turns a small normal object into a creature known as a mimic. P.S. They bite.</div>
               </td>
             </tr>
-            <tr>
+            <tr class="divide">
               <td rowspan=4 class="no_border"></td>
               <td>1d</td>
               <td class="container">
@@ -650,18 +650,194 @@
             </tr>
           </tbody>
         </table>
-        <script>
-          const hiddens = document.querySelectorAll("#table_spells .description");
-          const tds = document.querySelectorAll("#table_spells .container");
-          for (let i = 0; i < tds.length; i++) {
-            tds[i].addEventListener("click", function() {
-              hiddens[i].classList.toggle("hide");
-              hiddens[i].classList.toggle("show");
-            });
-          }
-
-        </script>
       </section>
+      <section>
+        <h2>
+          Award Spells
+        </h2>
+        <table class="table_spells">
+          <caption>Click on a spell for more info.</caption>
+          <colgroup>
+            <col class="award-coral table_notes" />
+            <col class="award-coral" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">Month</th>
+              <th scope="col">Spell</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="divide">
+              <td rowspan=2>January</td>
+              <td class="container">
+                <div class="td_button">Doodle</div>
+                <div class="description hide">Low Energy - Causes a writing implement to randomly doodle on a piece of paper.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Helium</div>
+                <div class="description hide">Low Energy - Cause an individual to speak as though they have breathed in helium for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>February</td>
+              <td class="container">
+                <div class="td_button">Rose</div>
+                <div class="description hide">Low Energy - Summons a rose to appear. (the rose will eventually die like any other flower over time).</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Unibrow</div>
+                <div class="description hide">Low Energy - Causes a unibrow to form on the target individual for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>March</td>
+              <td class="container">
+                <div class="td_button">Bubble</div>
+                <div class="description hide">Low Energy - Cause a burst of bubbles to magically appear and float around until popped (no more than 5 minutes).</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Sneeze</div>
+                <div class="description hide">Low Energy - Cause target individual to have a sneezing fit (several sneezes in a row).</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>April</td>
+              <td class="container">
+                <div class="td_button">Tie</div>
+                <div class="description hide">Low Energy Causes target item to tie, such as shoe laces, a bow, etc.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Hop</div>
+                <div class="description hide">Low Energy - Causes target individual to hop around like a bunny for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>May</td>
+              <td class="container">
+                <div class="td_button">Fancy Fingers</div>
+                <div class="description hide">Low Energy - Causes fingers to glow and sparkle for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Rooster Crow</div>
+                <div class="description hide">Low Energy - Causes target individual to crow like a rooster randomly for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>June</td>
+              <td class="container">
+                <div class="td_button">Pebble Skip</div>
+                <div class="description hide">Low Energy - Causes target stone to skip across water (must be near water).</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Tickle</div>
+                <div class="description hide">Low Energy - Causes target individual to be magically tickled for a couple of minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>July</td>
+              <td class="container">
+                <div class="td_button">Twinkle Toes</div>
+                <div class="description hide">Low Energy - Causes toes to glow and sparkle for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Prism</div>
+                <div class="description hide">Low Energy - Causes a spreading of a light beam to make a rainbow.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>August</td>
+              <td class="container">
+                <div class="td_button">Pocket Sand</div>
+                <div class="description hide">Low Energy - Causes target pocket to fill with sand.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Fish Flop</div>
+                <div class="description hide">Low Energy Causes target non-person/non-animal item to flop around like a fish.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>September</td>
+              <td class="container">
+                <div class="td_button">Earworm</div>
+                <div class="description hide">Low Energy - Causes a song or phrase to be played over and over near target individual's ear for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Stitch</div>
+                <div class="description hide">Low Energy - Causes target needle and thread to sew something shut.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>October</td>
+              <td class="container">
+                <div class="td_button">Belch</div>
+                <div class="description hide">Low Energy - Causes target individual to burp.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Bug Eyed</div>
+                <div class="description hide">Low Energy - Causes target person's eyes to increase in size and bug out of their head for 5 minutes..</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>November</td>
+              <td class="container">
+                <div class="td_button">Turkey Gobble</div>
+                <div class="description hide">Low Energy - Causes target individual to gobble like a turkey randomly for 5 minutes..</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Turkey Trot</div>
+                <div class="description hide">Low Energy - Causes target individual to walk around like a turkey, duck, or chicken for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr class="divide">
+              <td rowspan=2>December</td>
+              <td class="container">
+                <div class="td_button">Red Nose</div>
+                <div class="description hide">LLow Energy - Causes target individual's nose to glow red for 5 minutes.</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="container">
+                <div class="td_button">Glitter Bomb</div>
+                <div class="description hide">Low Energy Causes a 6" orb to form filled with glitter it will either pop when popped or will pop after 5 minutes.</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <script>
+        const hiddens = document.querySelectorAll(".table_spells .description");
+        const tds = document.querySelectorAll(".table_spells .container");
+        for (let i = 0; i < tds.length; i++) {
+          tds[i].addEventListener("click", function() {
+            hiddens[i].classList.toggle("hide");
+            hiddens[i].classList.toggle("show");
+          });
+        }
+
+      </script>
     </div>
     <div data-include="footer"></div>
   </body>
