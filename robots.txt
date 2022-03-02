@@ -1,4 +1,4 @@
-Sitemap: https://example.com/my_sitemap.xml
+Sitemap: https://laurelhillsacademy-sl.com/sitemap.xml
 
 User-agent: *
 Allow: /
