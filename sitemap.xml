@@ -21,6 +21,8 @@
       <lastmod>2022-02-16</lastmod>
 
       <changefreq>yearly</changefreq>
+        
+      <priority>0.4</priority>
 
     </url>
   
@@ -111,6 +113,8 @@
       <lastmod>2022-03-01</lastmod>
 
       <changefreq>monthly</changefreq>
+        
+      <priority>0.4</priority>
 
     </url>
   
@@ -170,6 +174,8 @@
       <lastmod>2022-02-16</lastmod>
 
       <changefreq>monthly</changefreq>
+        
+      <priority>0.4</priority>
 
     </url>
   
