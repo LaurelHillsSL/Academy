@@ -335,7 +335,7 @@ a#header_home:hover {
   width: 100%;
   margin: 0px auto 0px;
   background-color: #ebe8e1;
-  padding: 0px 10px 10px 10px;
+  padding: 10px 0px 10px 0px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
