@@ -1,0 +1,11 @@
+Sitemap: https://example.com/my_sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /templates/
+Disallow: /header.html
+Disallow: /footer.html
+Disallow: /*.js
+Disallow: /CNAME
+Disallow: /*.css
+Disallow: /*.md
